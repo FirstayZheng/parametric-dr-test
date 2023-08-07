@@ -1,0 +1,19 @@
+#ATTENTION: NO TAB. Please use SPACE and be careful about the hierarchy.
+#TODO Add hierarchy
+prefix: 'swissroll'
+dataset: 'swissroll'
+dataset_category: 'swissroll'
+batch_size: 128
+n_neighbors: 10
+device: 0
+color: 3
+lr: 1.0e-3
+global_loss: 1e-4
+draw_gap: 1
+epochs: 3
+batch_gap: 100
+seed: 42
+output_dir: './outputs'
+negative_sample_rate: 5
+loss_mode: 'ISOMAPLoss'
+save_procedure_data: True

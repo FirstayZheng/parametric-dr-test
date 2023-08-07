@@ -1,0 +1,23 @@
+#ATTENTION: NO TAB. Please use SPACE and be careful about the hierarchy.
+#TODO Add hierarchy
+prefix: 'Ball_3d'
+dataset: 'ball_head_cut1'
+dataset_path: './data/Ball_3d/ball_head_cut1/'
+dataset_category: 'local'
+batch_size: 1024
+n_neighbors: 10
+device: 0
+color: 3
+lr: 1.0e-3
+global_loss: 
+draw_gap: 1
+epochs: 5
+batch_gap: 100
+seed: 42
+output_dir: './outputs'
+negative_sample_rate: 5
+loss_mode: 'noGlobalLoss'
+save_procedure_data: False
+knn_cutting: False
+use_local_cache: False
+save_result: False

@@ -1,0 +1,19 @@
+#ATTENTION: NO TAB. Please use SPACE and be careful about the hierarchy.
+#TODO Add hierarchy
+prefix: 'Ball_3d'
+dataset: 'ball_mid_cut2'
+dataset_category: 'local'
+batch_size: 200
+n_neighbors: 10
+device: 0
+color: 3
+lr: 1.0e-3
+global_loss: 1e-3 
+draw_gap: 3
+epochs: 5
+batch_gap: 100
+seed: 42
+output_dir: './outputs'
+negative_sample_rate: 5
+loss_mode: 'GlobalLoss'
+save_procedure_data: True
